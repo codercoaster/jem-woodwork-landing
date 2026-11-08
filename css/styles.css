@@ -531,7 +531,7 @@ main > section + section,
 /* Footer */
 /* Same height as the header board: 8px + 44px row + 8px. */
 .foot { padding-block: 8px; font-size: 1rem; }
-.foot__row { display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: center; gap: 12px; min-height: 44px; }
+.foot__row { max-width: none; padding-inline: max(24px, env(safe-area-inset-left)) max(24px, env(safe-area-inset-right)); display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: center; gap: 12px; min-height: 44px; }
 .foot__row p { margin: 0; line-height: 1; white-space: nowrap; }
 .foot__icons { display: flex; flex: none; gap: 8px; margin-right: -10px; }
 .foot__icons a { display: grid; place-items: center; width: 44px; height: 44px; color: inherit; border-radius: 50%; transition: background-color .2s ease; }
