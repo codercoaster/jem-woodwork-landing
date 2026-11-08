@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Herramientas locales de agentes y diseño
+.agents/
+.claude/
+.impeccable/
+skills-lock.json
+
+# Planes de trabajo internos
+plans/
