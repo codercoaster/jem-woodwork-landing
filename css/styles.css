@@ -137,6 +137,8 @@ main > section + section,
 .btn--ink { background: var(--ebony); color: var(--maple); }
 .btn--line { background: transparent; color: var(--ebony); }
 .btn--paper { background: var(--maple); color: var(--ebony); }
+.btn__label { display: inline-flex; align-items: center; gap: 0.1em; }
+.btn__icon { flex: none; width: 1.3em; height: 1.3em; }
 
 /* Call buttons: wood plaques screwed onto the wall. Raised and screwed on means pressable. */
 .btn--plaque {
@@ -482,12 +484,12 @@ main > section + section,
   background: var(--ebony) url("../assets/img/wood-ebony.webp") center / 900px 560px;
   color: var(--maple);
   box-shadow:
-    inset 0 12px 16px -6px rgba(0, 0, 0, 0.85),
+    inset 0 10px 14px -6px rgba(0, 0, 0, 0.85),
     inset 6px 0 10px -6px rgba(0, 0, 0, 0.55),
-    inset 0 -1px 0 rgba(255, 230, 190, 0.22),
-    0 0 0 1px rgba(40, 22, 8, 0.75),
-    0 -3px 0 1px rgba(110, 66, 28, 0.55),
-    0 3px 0 1px rgba(255, 244, 222, 0.7);
+    inset 0 -1px 0 rgba(255, 230, 190, 0.12),
+    0 0 0 1px rgba(40, 22, 8, 0.8),
+    0 -2px 0 1px rgba(70, 40, 16, 0.2),
+    0 2px 0 1px rgba(255, 244, 222, 0.28);
 }
 .contact__facts {
   display: grid;
